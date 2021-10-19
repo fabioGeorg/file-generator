@@ -1,0 +1,10 @@
+G:\VisualStudioProjects\FileGenerator\FileGenerator\bin\Debug\FileGenerator.exe.config
+G:\VisualStudioProjects\FileGenerator\FileGenerator\bin\Debug\FileGenerator.exe
+G:\VisualStudioProjects\FileGenerator\FileGenerator\bin\Debug\FileGenerator.pdb
+G:\VisualStudioProjects\FileGenerator\FileGenerator\obj\Debug\FileGenerator.csprojAssemblyReference.cache
+G:\VisualStudioProjects\FileGenerator\FileGenerator\obj\Debug\FileGenerator.Form1.resources
+G:\VisualStudioProjects\FileGenerator\FileGenerator\obj\Debug\FileGenerator.Properties.Resources.resources
+G:\VisualStudioProjects\FileGenerator\FileGenerator\obj\Debug\FileGenerator.csproj.GenerateResource.cache
+G:\VisualStudioProjects\FileGenerator\FileGenerator\obj\Debug\FileGenerator.csproj.CoreCompileInputs.cache
+G:\VisualStudioProjects\FileGenerator\FileGenerator\obj\Debug\FileGenerator.exe
+G:\VisualStudioProjects\FileGenerator\FileGenerator\obj\Debug\FileGenerator.pdb
