@@ -53,35 +53,18 @@ namespace FileGenerator
             BackgroundWorker worker = sender as BackgroundWorker;
 
             string tmp = "";
-            if (Convert.ToUInt64(numTailleFichier.Value) >= 100 && Convert.ToUInt64(numTailleFichier.Value) <= 1000)
-            {
-                for (UInt64 i = 0; i < 100; i++)
-                    tmp += 'a';
-            }
-            else if (Convert.ToUInt64(numTailleFichier.Value) >= 1001 && Convert.ToUInt64(numTailleFichier.Value) <= 10000)
-            {
-                for (UInt64 i = 0; i < 1000; i++)
-                    tmp += 'a';
-            }
-            else if (Convert.ToUInt64(numTailleFichier.Value) >= 10001 && Convert.ToUInt64(numTailleFichier.Value) <= 100000)
-            {
-                for (UInt64 i = 0; i < 10000; i++)
-                    tmp += 'a';
-            }
-            else if (Convert.ToUInt64(numTailleFichier.Value) >= 100001 && Convert.ToUInt64(numTailleFichier.Value) <= 1000000)
-            {
-                for (UInt64 i = 0; i < 100000; i++)
-                    tmp += 'a';
-            }
-            else if (Convert.ToUInt64(numTailleFichier.Value) > 100000)
-            {
-                for (UInt64 i = 0; i < 1000000; i++)
-                    tmp += 'a';
-            }
-            else
-            {
+            if (Convert.ToUInt64(numTailleFichier.Value) >= 100 && Convert.ToUInt64(numTailleFichier.Value) <= 1000)            
+                for (UInt64 i = 0; i < 100; i++) tmp += 'a';            
+            else if (Convert.ToUInt64(numTailleFichier.Value) >= 1001 && Convert.ToUInt64(numTailleFichier.Value) <= 10000)            
+                for (UInt64 i = 0; i < 1000; i++) tmp += 'a';            
+            else if (Convert.ToUInt64(numTailleFichier.Value) >= 10001 && Convert.ToUInt64(numTailleFichier.Value) <= 100000)            
+                for (UInt64 i = 0; i < 10000; i++) tmp += 'a';
+            else if (Convert.ToUInt64(numTailleFichier.Value) >= 100001 && Convert.ToUInt64(numTailleFichier.Value) <= 1000000)            
+                for (UInt64 i = 0; i < 100000; i++) tmp += 'a';
+            else if (Convert.ToUInt64(numTailleFichier.Value) > 100000)            
+                for (UInt64 i = 0; i < 1000000; i++) tmp += 'a';
+            else            
                 tmp = "a";
-            }
 
             using (StreamWriter sw = new StreamWriter("generated-" + nb + ".txt"))
             {
